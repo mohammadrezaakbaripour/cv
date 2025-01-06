@@ -1,0 +1,72 @@
+.img_profile {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+td {
+  Padding: 1rem 3rem;
+}
+
+.profile, .education, .experience {
+  width: 50rem;
+  background: #f0ffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.profile:hover, .education:hover, .experience:hover, .progress-bar:hover {
+  transform: translateX(-5px);
+}
+
+.progress-bar {
+  width: 50rem;
+  height: 1.5rem;
+  background: #e2e8f0;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1rem 2rem;
+  transition: transform 0.3s ease;
+}
+
+
+.progress {
+  height: 100%;
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  border-radius: 1rem;
+  transition: width 1s ease;
+}
+
+.skill {
+  color: #eee8aa;
+  padding: 0.1rem 1rem;
+  font-family: "Tahoma";
+}
+
+.contact {
+  margin: 1rem 3rem;
+}
+
+.contact:hover {
+  animation: shake 0.25s ease-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-5deg);
+  }
+  50% {
+    transform: skewX(5deg);
+  }
+  100% {
+    transform: skewX(-5deg);
+  }
+}
